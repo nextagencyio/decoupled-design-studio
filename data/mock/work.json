@@ -1,0 +1,307 @@
+{
+  "data": {
+    "nodeProjects": {
+      "__typename": "NodeProjectConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProject",
+          "id": "project-solace",
+          "title": "Solace Wellness - Brand Identity",
+          "path": "/work/solace-wellness-rebrand",
+          "body": {
+            "processed": "<p>Solace Wellness approached us to create a brand identity that would convey calm, trust, and modern sophistication for their chain of premium wellness centers.</p><h2>The Brief</h2><p>Solace needed a complete visual identity system that would work across physical signage, digital platforms, and print collateral. The brand had to feel elevated yet approachable, reflecting their philosophy that wellness is for everyone.</p><h2>Our Approach</h2><p>We developed a warm, earthy color palette paired with clean typography and organic geometric forms. The logomark -- an abstracted lotus rendered in continuous line -- symbolizes growth, balance, and interconnection.</p><h2>Deliverables</h2><ul><li>Primary and secondary logo systems</li><li>Color palette and typography guidelines</li><li>Stationery suite and print collateral</li><li>Environmental graphics for 8 locations</li><li>Digital brand guidelines document</li></ul>",
+            "summary": "Solace Wellness approached us to create a brand identity that would convey calm, trust, and modern sophistication for their chain of premium wellness centers.The BriefSolace needed a complete visual i"
+          },
+          "projectCategory": [
+            {
+              "id": "branding",
+              "name": "branding"
+            },
+            {
+              "id": "environmental",
+              "name": "environmental"
+            }
+          ],
+          "clientName": "Solace Wellness",
+          "completionYear": "2025",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&q=80",
+            "alt": "Solace Wellness brand identity materials on marble surface",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+              "alt": "Solace Wellness logo design process",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+              "alt": "Solace Wellness stationery suite",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-atlas",
+          "title": "Atlas Fintech - Digital Platform",
+          "path": "/work/atlas-fintech-platform",
+          "body": {
+            "processed": "<p>Atlas Fintech needed a complete redesign of their investment platform to improve user engagement, simplify complex financial data, and increase conversion from free to premium tiers.</p><h2>The Challenge</h2><p>The existing platform suffered from information overload, inconsistent UI patterns, and a confusing onboarding flow. User research revealed that 60% of new signups abandoned the platform within the first week.</p><h2>Our Solution</h2><p>We redesigned the entire experience using a progressive disclosure model. New users see a simplified dashboard that gradually introduces advanced features as they become more comfortable. Data visualizations were rebuilt with clarity as the primary goal.</p><h2>Results</h2><ul><li>First-week retention improved from 40% to 72%</li><li>Free-to-premium conversion increased by 85%</li><li>Average session time grew from 4 to 11 minutes</li><li>NPS score rose from 32 to 67</li></ul>",
+            "summary": "Atlas Fintech needed a complete redesign of their investment platform to improve user engagement, simplify complex financial data, and increase conversion from free to premium tiers.The ChallengeThe e"
+          },
+          "projectCategory": [
+            {
+              "id": "web-design",
+              "name": "web-design"
+            }
+          ],
+          "clientName": "Atlas Fintech",
+          "completionYear": "2025",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+            "alt": "Atlas Fintech dashboard design on laptop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+              "alt": "Atlas Fintech data visualization design",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+              "alt": "Atlas Fintech mobile responsive design",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-terraverde",
+          "title": "TerraVerde - Packaging Design",
+          "path": "/work/terraverde-packaging",
+          "body": {
+            "processed": "<p>TerraVerde, an organic skincare brand, commissioned us to design packaging for their new product line that would stand out on shelves while communicating their commitment to sustainability.</p><h2>Design Philosophy</h2><p>We drew inspiration from botanical illustration traditions, creating detailed line drawings of the key ingredients in each product. The illustrations are printed with vegetable-based inks on recycled paperboard, reinforcing the brand's environmental values through every material choice.</p><h2>Sustainability</h2><ul><li>100% recycled and recyclable packaging materials</li><li>Vegetable-based inks throughout</li><li>Minimalist design to reduce material waste</li><li>Refill program branding and in-store display system</li></ul>",
+            "summary": "TerraVerde, an organic skincare brand, commissioned us to design packaging for their new product line that would stand out on shelves while communicating their commitment to sustainability.Design Phil"
+          },
+          "projectCategory": [
+            {
+              "id": "packaging",
+              "name": "packaging"
+            }
+          ],
+          "clientName": "TerraVerde Organics",
+          "completionYear": "2024",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80",
+            "alt": "TerraVerde organic skincare packaging lineup",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=80",
+              "alt": "TerraVerde packaging detail with botanical illustration",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+              "alt": "TerraVerde full product range packaging",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

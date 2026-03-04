@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Form & Function Studio",
+          "path": "/homepage",
+          "heroTitle": "Design That Moves People",
+          "heroSubtitle": "Brand. Digital. Environment.",
+          "heroDescription": {
+            "processed": "<p>We are a multidisciplinary design studio crafting meaningful experiences across brand identity, digital platforms, and physical spaces. Every project starts with a question: how should this make people feel?</p>",
+            "summary": "We are a multidisciplinary design studio crafting meaningful experiences across brand identity, digital platforms, and physical spaces. Every project starts with a question: how should this make peopl"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-projects",
+              "title": "",
+              "number": "400+",
+              "label": "Projects Delivered"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "52",
+              "label": "Design Awards"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "180+",
+              "label": "Clients Worldwide"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years in Practice"
+            }
+          ],
+          "featuredItemsTitle": "Selected Work",
+          "ctaTitle": "Let's Create Something Remarkable",
+          "ctaDescription": {
+            "processed": "<p>We partner with ambitious brands and organizations that believe design is a strategic advantage. Tell us about your vision.</p>",
+            "summary": "We partner with ambitious brands and organizations that believe design is a strategic advantage. Tell us about your vision."
+          },
+          "ctaPrimary": "Start a Project",
+          "ctaSecondary": "View All Work"
+        }
+      ]
+    }
+  }
+}

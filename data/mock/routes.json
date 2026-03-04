@@ -1,0 +1,716 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Form & Function Studio",
+          "path": "/homepage",
+          "heroTitle": "Design That Moves People",
+          "heroSubtitle": "Brand. Digital. Environment.",
+          "heroDescription": {
+            "processed": "<p>We are a multidisciplinary design studio crafting meaningful experiences across brand identity, digital platforms, and physical spaces. Every project starts with a question: how should this make people feel?</p>",
+            "summary": "We are a multidisciplinary design studio crafting meaningful experiences across brand identity, digital platforms, and physical spaces. Every project starts with a question: how should this make peopl"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-projects",
+              "title": "",
+              "number": "400+",
+              "label": "Projects Delivered"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "52",
+              "label": "Design Awards"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "180+",
+              "label": "Clients Worldwide"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "18",
+              "label": "Years in Practice"
+            }
+          ],
+          "featuredItemsTitle": "Selected Work",
+          "ctaTitle": "Let's Create Something Remarkable",
+          "ctaDescription": {
+            "processed": "<p>We partner with ambitious brands and organizations that believe design is a strategic advantage. Tell us about your vision.</p>",
+            "summary": "We partner with ambitious brands and organizations that believe design is a strategic advantage. Tell us about your vision."
+          },
+          "ctaPrimary": "Start a Project",
+          "ctaSecondary": "View All Work"
+        }
+      }
+    }
+  },
+  "/work/solace-wellness-rebrand": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProject",
+          "id": "project-solace",
+          "title": "Solace Wellness - Brand Identity",
+          "path": "/work/solace-wellness-rebrand",
+          "body": {
+            "processed": "<p>Solace Wellness approached us to create a brand identity that would convey calm, trust, and modern sophistication for their chain of premium wellness centers.</p><h2>The Brief</h2><p>Solace needed a complete visual identity system that would work across physical signage, digital platforms, and print collateral. The brand had to feel elevated yet approachable, reflecting their philosophy that wellness is for everyone.</p><h2>Our Approach</h2><p>We developed a warm, earthy color palette paired with clean typography and organic geometric forms. The logomark -- an abstracted lotus rendered in continuous line -- symbolizes growth, balance, and interconnection.</p><h2>Deliverables</h2><ul><li>Primary and secondary logo systems</li><li>Color palette and typography guidelines</li><li>Stationery suite and print collateral</li><li>Environmental graphics for 8 locations</li><li>Digital brand guidelines document</li></ul>",
+            "summary": "Solace Wellness approached us to create a brand identity that would convey calm, trust, and modern sophistication for their chain of premium wellness centers.The BriefSolace needed a complete visual i"
+          },
+          "projectCategory": [
+            {
+              "id": "branding",
+              "name": "branding"
+            },
+            {
+              "id": "environmental",
+              "name": "environmental"
+            }
+          ],
+          "clientName": "Solace Wellness",
+          "completionYear": "2025",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&q=80",
+            "alt": "Solace Wellness brand identity materials on marble surface",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+              "alt": "Solace Wellness logo design process",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+              "alt": "Solace Wellness stationery suite",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/work/atlas-fintech-platform": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProject",
+          "id": "project-atlas",
+          "title": "Atlas Fintech - Digital Platform",
+          "path": "/work/atlas-fintech-platform",
+          "body": {
+            "processed": "<p>Atlas Fintech needed a complete redesign of their investment platform to improve user engagement, simplify complex financial data, and increase conversion from free to premium tiers.</p><h2>The Challenge</h2><p>The existing platform suffered from information overload, inconsistent UI patterns, and a confusing onboarding flow. User research revealed that 60% of new signups abandoned the platform within the first week.</p><h2>Our Solution</h2><p>We redesigned the entire experience using a progressive disclosure model. New users see a simplified dashboard that gradually introduces advanced features as they become more comfortable. Data visualizations were rebuilt with clarity as the primary goal.</p><h2>Results</h2><ul><li>First-week retention improved from 40% to 72%</li><li>Free-to-premium conversion increased by 85%</li><li>Average session time grew from 4 to 11 minutes</li><li>NPS score rose from 32 to 67</li></ul>",
+            "summary": "Atlas Fintech needed a complete redesign of their investment platform to improve user engagement, simplify complex financial data, and increase conversion from free to premium tiers.The ChallengeThe e"
+          },
+          "projectCategory": [
+            {
+              "id": "web-design",
+              "name": "web-design"
+            }
+          ],
+          "clientName": "Atlas Fintech",
+          "completionYear": "2025",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+            "alt": "Atlas Fintech dashboard design on laptop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+              "alt": "Atlas Fintech data visualization design",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+              "alt": "Atlas Fintech mobile responsive design",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/work/terraverde-packaging": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProject",
+          "id": "project-terraverde",
+          "title": "TerraVerde - Packaging Design",
+          "path": "/work/terraverde-packaging",
+          "body": {
+            "processed": "<p>TerraVerde, an organic skincare brand, commissioned us to design packaging for their new product line that would stand out on shelves while communicating their commitment to sustainability.</p><h2>Design Philosophy</h2><p>We drew inspiration from botanical illustration traditions, creating detailed line drawings of the key ingredients in each product. The illustrations are printed with vegetable-based inks on recycled paperboard, reinforcing the brand's environmental values through every material choice.</p><h2>Sustainability</h2><ul><li>100% recycled and recyclable packaging materials</li><li>Vegetable-based inks throughout</li><li>Minimalist design to reduce material waste</li><li>Refill program branding and in-store display system</li></ul>",
+            "summary": "TerraVerde, an organic skincare brand, commissioned us to design packaging for their new product line that would stand out on shelves while communicating their commitment to sustainability.Design Phil"
+          },
+          "projectCategory": [
+            {
+              "id": "packaging",
+              "name": "packaging"
+            }
+          ],
+          "clientName": "TerraVerde Organics",
+          "completionYear": "2024",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80",
+            "alt": "TerraVerde organic skincare packaging lineup",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "gallery": [
+            {
+              "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=80",
+              "alt": "TerraVerde packaging detail with botanical illustration",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            },
+            {
+              "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+              "alt": "TerraVerde full product range packaging",
+              "width": 800,
+              "height": 533,
+              "variations": [
+                {
+                  "name": "LARGE",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+                  "width": 800,
+                  "height": 533
+                },
+                {
+                  "name": "MEDIUM",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=480&q=80",
+                  "width": 480,
+                  "height": 320
+                },
+                {
+                  "name": "THUMBNAIL",
+                  "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=200&q=80",
+                  "width": 200,
+                  "height": 133
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "/services/brand-identity": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-brand-identity",
+          "title": "Brand Identity & Strategy",
+          "path": "/services/brand-identity",
+          "body": {
+            "processed": "<p>We build brand systems that are both beautiful and strategic. Starting with deep research into your market, audience, and competitive landscape, we create identities that differentiate and endure.</p><h2>What We Deliver</h2><ul><li>Brand strategy and positioning workshops</li><li>Logo design and visual identity systems</li><li>Color, typography, and iconography guidelines</li><li>Brand voice and messaging frameworks</li><li>Comprehensive brand guidelines documents</li></ul>",
+            "summary": "We build brand systems that are both beautiful and strategic. Starting with deep research into your market, audience, and competitive landscape, we create identities that differentiate and endure.What"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "brand-identity",
+              "name": "brand-identity"
+            }
+          ],
+          "iconName": "palette",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+            "alt": "Brand identity design materials spread on desk",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/digital-design": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-digital-design",
+          "title": "Digital Design & UX",
+          "path": "/services/digital-design",
+          "body": {
+            "processed": "<p>We design digital experiences that are intuitive, engaging, and conversion-driven. From marketing websites to complex SaaS platforms, our approach balances aesthetics with usability.</p><h2>Capabilities</h2><ul><li>Website design and development</li><li>User experience research and testing</li><li>UI design systems and component libraries</li><li>Interactive prototyping</li><li>Responsive and mobile-first design</li></ul>",
+            "summary": "We design digital experiences that are intuitive, engaging, and conversion-driven. From marketing websites to complex SaaS platforms, our approach balances aesthetics with usability.CapabilitiesWebsit"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "digital-design",
+              "name": "digital-design"
+            },
+            {
+              "id": "ux-ui",
+              "name": "ux-ui"
+            }
+          ],
+          "iconName": "monitor",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+            "alt": "Digital design work on a high-resolution display",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/packaging-design": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-packaging",
+          "title": "Packaging & Print",
+          "path": "/services/packaging-design",
+          "body": {
+            "processed": "<p>We create packaging that tells your brand's story from the shelf to the unboxing experience. Our designs balance visual impact with practical manufacturing requirements.</p><h2>Services Include</h2><ul><li>Structural packaging design</li><li>Label and wrap design</li><li>Print production management</li><li>Sustainable materials consulting</li><li>Point-of-sale and display design</li></ul>",
+            "summary": "We create packaging that tells your brand's story from the shelf to the unboxing experience. Our designs balance visual impact with practical manufacturing requirements.Services IncludeStructural pack"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "packaging",
+              "name": "packaging"
+            }
+          ],
+          "iconName": "box",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&q=80",
+            "alt": "Premium packaging design with clean typography",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/nina-rodriguez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-nina",
+          "title": "Nina Rodriguez",
+          "path": "/team/nina-rodriguez",
+          "body": {
+            "processed": "<p>Nina founded Form & Function Studio in 2007 after leading the design team at Pentagram's San Francisco office. Her work has been recognized by D&AD, Communication Arts, and the Type Directors Club. She believes great design is invisible -- it simply feels right.</p>",
+            "summary": "Nina founded Form & Function Studio in 2007 after leading the design team at Pentagram's San Francisco office. Her work has been recognized by D&AD, Communication Arts, and the Type Directors Club. Sh"
+          },
+          "position": "Founder & Creative Director",
+          "specialties": [
+            "Brand Strategy",
+            "Typography",
+            "Art Direction"
+          ],
+          "email": "nina@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+            "alt": "Nina Rodriguez - Founder & Creative Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/alex-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-alex",
+          "title": "Alex Chen",
+          "path": "/team/alex-chen",
+          "body": {
+            "processed": "<p>Alex leads the digital design team, bringing a background in both industrial design and software engineering. This dual perspective allows him to create digital experiences that feel as considered and tactile as physical objects. Previously at IDEO and Google.</p>",
+            "summary": "Alex leads the digital design team, bringing a background in both industrial design and software engineering. This dual perspective allows him to create digital experiences that feel as considered and"
+          },
+          "position": "Head of Digital",
+          "specialties": [
+            "UX Design",
+            "Interaction Design",
+            "Design Systems"
+          ],
+          "email": "alex@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+            "alt": "Alex Chen - Head of Digital",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/maya-okafor": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-maya",
+          "title": "Maya Okafor",
+          "path": "/team/maya-okafor",
+          "body": {
+            "processed": "<p>Maya brings a deep understanding of sustainable design practices to every project. With a masters in Sustainable Design from the Royal College of Art, she ensures our packaging and environmental design work minimizes ecological impact without compromising visual quality.</p>",
+            "summary": "Maya brings a deep understanding of sustainable design practices to every project. With a masters in Sustainable Design from the Royal College of Art, she ensures our packaging and environmental desig"
+          },
+          "position": "Senior Designer - Packaging",
+          "specialties": [
+            "Packaging Design",
+            "Sustainable Design",
+            "Print Production"
+          ],
+          "email": "maya@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Maya Okafor - Senior Designer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Form & Function Studio",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Form & Function is a multidisciplinary design studio founded in San Francisco in 2007. We create brand identities, digital experiences, and physical environments for clients who believe design is a strategic investment, not a cost center.</p><h2>Our Philosophy</h2><p>We named our studio after the enduring design principle that form follows function. For us, this means every aesthetic choice must serve a purpose. Beauty without utility is decoration; utility without beauty is engineering. We aim for the intersection where both thrive.</p><h2>How We Work</h2><p>Every project begins with listening. We conduct thorough research, facilitate collaborative workshops, and develop strategic frameworks before any visual design begins. This ensures our creative work is grounded in real insight, not assumption.</p><h2>Recognition</h2><ul><li>D&AD Yellow Pencil - Branding (2024)</li><li>Communication Arts Design Annual - 12 selections</li><li>Fast Company Innovation by Design - Finalist (2023)</li></ul>",
+            "summary": "Form & Function is a multidisciplinary design studio founded in San Francisco in 2007. We create brand identities, digital experiences, and physical environments for clients who believe design is a st"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-contact",
+          "title": "Contact",
+          "path": "/contact",
+          "body": {
+            "processed": "<h2>Start a Conversation</h2><p>We're always interested in hearing about new projects, collaborations, and creative challenges. Get in touch and let's explore what we can build together.</p><h2>Studio</h2><p>142 Tehama Street, Suite 400<br/>San Francisco, CA 94105</p><h2>New Business</h2><p>For project inquiries, please email hello@formfunction.studio with a brief description of your project, timeline, and budget range.</p><h2>Careers</h2><p>We're always looking for talented designers who share our values. Check our careers page for current openings, or send your portfolio to careers@formfunction.studio.</p>",
+            "summary": "Start a ConversationWe're always interested in hearing about new projects, collaborations, and creative challenges. Get in touch and let's explore what we can build together.Studio142 Tehama Street, S"
+          }
+        }
+      }
+    }
+  }
+}

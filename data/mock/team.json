@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-nina",
+          "title": "Nina Rodriguez",
+          "path": "/team/nina-rodriguez",
+          "body": {
+            "processed": "<p>Nina founded Form & Function Studio in 2007 after leading the design team at Pentagram's San Francisco office. Her work has been recognized by D&AD, Communication Arts, and the Type Directors Club. She believes great design is invisible -- it simply feels right.</p>",
+            "summary": "Nina founded Form & Function Studio in 2007 after leading the design team at Pentagram's San Francisco office. Her work has been recognized by D&AD, Communication Arts, and the Type Directors Club. Sh"
+          },
+          "position": "Founder & Creative Director",
+          "specialties": [
+            "Brand Strategy",
+            "Typography",
+            "Art Direction"
+          ],
+          "email": "nina@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+            "alt": "Nina Rodriguez - Founder & Creative Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-alex",
+          "title": "Alex Chen",
+          "path": "/team/alex-chen",
+          "body": {
+            "processed": "<p>Alex leads the digital design team, bringing a background in both industrial design and software engineering. This dual perspective allows him to create digital experiences that feel as considered and tactile as physical objects. Previously at IDEO and Google.</p>",
+            "summary": "Alex leads the digital design team, bringing a background in both industrial design and software engineering. This dual perspective allows him to create digital experiences that feel as considered and"
+          },
+          "position": "Head of Digital",
+          "specialties": [
+            "UX Design",
+            "Interaction Design",
+            "Design Systems"
+          ],
+          "email": "alex@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+            "alt": "Alex Chen - Head of Digital",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-maya",
+          "title": "Maya Okafor",
+          "path": "/team/maya-okafor",
+          "body": {
+            "processed": "<p>Maya brings a deep understanding of sustainable design practices to every project. With a masters in Sustainable Design from the Royal College of Art, she ensures our packaging and environmental design work minimizes ecological impact without compromising visual quality.</p>",
+            "summary": "Maya brings a deep understanding of sustainable design practices to every project. With a masters in Sustainable Design from the Royal College of Art, she ensures our packaging and environmental desig"
+          },
+          "position": "Senior Designer - Packaging",
+          "specialties": [
+            "Packaging Design",
+            "Sustainable Design",
+            "Print Production"
+          ],
+          "email": "maya@formfunction.studio",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Maya Okafor - Senior Designer",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

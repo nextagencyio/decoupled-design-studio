@@ -1,0 +1,313 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Design studio homepage with hero, stats, featured projects, and CTA",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "project",
+      "label": "Project",
+      "description": "Design projects and case studies showcasing the studio's work",
+      "body": true,
+      "fields": [
+        { "id": "project_category", "label": "Category", "type": "term(project_categories)[]" },
+        { "id": "client_name", "label": "Client Name", "type": "string" },
+        { "id": "completion_year", "label": "Completion Year", "type": "string" },
+        { "id": "image", "label": "Featured Image", "type": "image" },
+        { "id": "gallery", "label": "Project Gallery", "type": "image[]" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Design services offered by the studio",
+      "body": true,
+      "fields": [
+        { "id": "service_discipline", "label": "Discipline", "type": "term(disciplines)[]" },
+        { "id": "icon_name", "label": "Icon Name", "type": "string" },
+        { "id": "image", "label": "Service Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "team_member",
+      "label": "Team Member",
+      "description": "Studio team members and designers",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position", "type": "string" },
+        { "id": "specialties", "label": "Specialties", "type": "string[]" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "photo", "label": "Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!" },
+        { "id": "label", "label": "Label", "type": "string!" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vocabulary": "project_categories",
+      "label": "Project Categories",
+      "terms": ["branding", "web-design", "packaging", "environmental", "print", "motion"]
+    },
+    {
+      "vocabulary": "disciplines",
+      "label": "Disciplines",
+      "terms": ["brand-identity", "digital-design", "ux-ui", "packaging", "environmental-design", "motion-graphics"]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-projects",
+      "type": "paragraph.stat_item",
+      "values": { "number": "400+", "label": "Projects Delivered" }
+    },
+    {
+      "id": "stat-awards",
+      "type": "paragraph.stat_item",
+      "values": { "number": "52", "label": "Design Awards" }
+    },
+    {
+      "id": "stat-clients",
+      "type": "paragraph.stat_item",
+      "values": { "number": "180+", "label": "Clients Worldwide" }
+    },
+    {
+      "id": "stat-years",
+      "type": "paragraph.stat_item",
+      "values": { "number": "18", "label": "Years in Practice" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Form & Function Studio",
+        "hero_title": "Design That Moves People",
+        "hero_subtitle": "Brand. Digital. Environment.",
+        "hero_description": "<p>We are a multidisciplinary design studio crafting meaningful experiences across brand identity, digital platforms, and physical spaces. Every project starts with a question: how should this make people feel?</p>",
+        "stats_items": ["@stat-projects", "@stat-awards", "@stat-clients", "@stat-years"],
+        "featured_items_title": "Selected Work",
+        "cta_title": "Let's Create Something Remarkable",
+        "cta_description": "<p>We partner with ambitious brands and organizations that believe design is a strategic advantage. Tell us about your vision.</p>",
+        "cta_primary": "Start a Project",
+        "cta_secondary": "View All Work"
+      }
+    },
+    {
+      "id": "project-solace",
+      "type": "node.project",
+      "path": "/work/solace-wellness-rebrand",
+      "values": {
+        "title": "Solace Wellness - Brand Identity",
+        "body": "<p>Solace Wellness approached us to create a brand identity that would convey calm, trust, and modern sophistication for their chain of premium wellness centers.</p><h2>The Brief</h2><p>Solace needed a complete visual identity system that would work across physical signage, digital platforms, and print collateral. The brand had to feel elevated yet approachable, reflecting their philosophy that wellness is for everyone.</p><h2>Our Approach</h2><p>We developed a warm, earthy color palette paired with clean typography and organic geometric forms. The logomark -- an abstracted lotus rendered in continuous line -- symbolizes growth, balance, and interconnection.</p><h2>Deliverables</h2><ul><li>Primary and secondary logo systems</li><li>Color palette and typography guidelines</li><li>Stationery suite and print collateral</li><li>Environmental graphics for 8 locations</li><li>Digital brand guidelines document</li></ul>",
+        "project_category": ["branding", "environmental"],
+        "client_name": "Solace Wellness",
+        "completion_year": "2025",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?w=800&q=80",
+          "alt": "Solace Wellness brand identity materials on marble surface"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80",
+            "alt": "Solace Wellness logo design process"
+          },
+          {
+            "uri": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?w=800&q=80",
+            "alt": "Solace Wellness stationery suite"
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-atlas",
+      "type": "node.project",
+      "path": "/work/atlas-fintech-platform",
+      "values": {
+        "title": "Atlas Fintech - Digital Platform",
+        "body": "<p>Atlas Fintech needed a complete redesign of their investment platform to improve user engagement, simplify complex financial data, and increase conversion from free to premium tiers.</p><h2>The Challenge</h2><p>The existing platform suffered from information overload, inconsistent UI patterns, and a confusing onboarding flow. User research revealed that 60% of new signups abandoned the platform within the first week.</p><h2>Our Solution</h2><p>We redesigned the entire experience using a progressive disclosure model. New users see a simplified dashboard that gradually introduces advanced features as they become more comfortable. Data visualizations were rebuilt with clarity as the primary goal.</p><h2>Results</h2><ul><li>First-week retention improved from 40% to 72%</li><li>Free-to-premium conversion increased by 85%</li><li>Average session time grew from 4 to 11 minutes</li><li>NPS score rose from 32 to 67</li></ul>",
+        "project_category": ["web-design"],
+        "client_name": "Atlas Fintech",
+        "completion_year": "2025",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+          "alt": "Atlas Fintech dashboard design on laptop"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+            "alt": "Atlas Fintech data visualization design"
+          },
+          {
+            "uri": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80",
+            "alt": "Atlas Fintech mobile responsive design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-terraverde",
+      "type": "node.project",
+      "path": "/work/terraverde-packaging",
+      "values": {
+        "title": "TerraVerde - Packaging Design",
+        "body": "<p>TerraVerde, an organic skincare brand, commissioned us to design packaging for their new product line that would stand out on shelves while communicating their commitment to sustainability.</p><h2>Design Philosophy</h2><p>We drew inspiration from botanical illustration traditions, creating detailed line drawings of the key ingredients in each product. The illustrations are printed with vegetable-based inks on recycled paperboard, reinforcing the brand's environmental values through every material choice.</p><h2>Sustainability</h2><ul><li>100% recycled and recyclable packaging materials</li><li>Vegetable-based inks throughout</li><li>Minimalist design to reduce material waste</li><li>Refill program branding and in-store display system</li></ul>",
+        "project_category": ["packaging"],
+        "client_name": "TerraVerde Organics",
+        "completion_year": "2024",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80",
+          "alt": "TerraVerde organic skincare packaging lineup"
+        },
+        "gallery": [
+          {
+            "uri": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=800&q=80",
+            "alt": "TerraVerde packaging detail with botanical illustration"
+          },
+          {
+            "uri": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=800&q=80",
+            "alt": "TerraVerde full product range packaging"
+          }
+        ]
+      }
+    },
+    {
+      "id": "service-brand-identity",
+      "type": "node.service",
+      "path": "/services/brand-identity",
+      "values": {
+        "title": "Brand Identity & Strategy",
+        "body": "<p>We build brand systems that are both beautiful and strategic. Starting with deep research into your market, audience, and competitive landscape, we create identities that differentiate and endure.</p><h2>What We Deliver</h2><ul><li>Brand strategy and positioning workshops</li><li>Logo design and visual identity systems</li><li>Color, typography, and iconography guidelines</li><li>Brand voice and messaging frameworks</li><li>Comprehensive brand guidelines documents</li></ul>",
+        "service_discipline": ["brand-identity"],
+        "icon_name": "palette",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+          "alt": "Brand identity design materials spread on desk"
+        }
+      }
+    },
+    {
+      "id": "service-digital-design",
+      "type": "node.service",
+      "path": "/services/digital-design",
+      "values": {
+        "title": "Digital Design & UX",
+        "body": "<p>We design digital experiences that are intuitive, engaging, and conversion-driven. From marketing websites to complex SaaS platforms, our approach balances aesthetics with usability.</p><h2>Capabilities</h2><ul><li>Website design and development</li><li>User experience research and testing</li><li>UI design systems and component libraries</li><li>Interactive prototyping</li><li>Responsive and mobile-first design</li></ul>",
+        "service_discipline": ["digital-design", "ux-ui"],
+        "icon_name": "monitor",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+          "alt": "Digital design work on a high-resolution display"
+        }
+      }
+    },
+    {
+      "id": "service-packaging",
+      "type": "node.service",
+      "path": "/services/packaging-design",
+      "values": {
+        "title": "Packaging & Print",
+        "body": "<p>We create packaging that tells your brand's story from the shelf to the unboxing experience. Our designs balance visual impact with practical manufacturing requirements.</p><h2>Services Include</h2><ul><li>Structural packaging design</li><li>Label and wrap design</li><li>Print production management</li><li>Sustainable materials consulting</li><li>Point-of-sale and display design</li></ul>",
+        "service_discipline": ["packaging"],
+        "icon_name": "box",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&q=80",
+          "alt": "Premium packaging design with clean typography"
+        }
+      }
+    },
+    {
+      "id": "team-nina",
+      "type": "node.team_member",
+      "path": "/team/nina-rodriguez",
+      "values": {
+        "title": "Nina Rodriguez",
+        "body": "<p>Nina founded Form & Function Studio in 2007 after leading the design team at Pentagram's San Francisco office. Her work has been recognized by D&AD, Communication Arts, and the Type Directors Club. She believes great design is invisible -- it simply feels right.</p>",
+        "position": "Founder & Creative Director",
+        "specialties": ["Brand Strategy", "Typography", "Art Direction"],
+        "email": "nina@formfunction.studio",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80",
+          "alt": "Nina Rodriguez - Founder & Creative Director"
+        }
+      }
+    },
+    {
+      "id": "team-alex",
+      "type": "node.team_member",
+      "path": "/team/alex-chen",
+      "values": {
+        "title": "Alex Chen",
+        "body": "<p>Alex leads the digital design team, bringing a background in both industrial design and software engineering. This dual perspective allows him to create digital experiences that feel as considered and tactile as physical objects. Previously at IDEO and Google.</p>",
+        "position": "Head of Digital",
+        "specialties": ["UX Design", "Interaction Design", "Design Systems"],
+        "email": "alex@formfunction.studio",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80",
+          "alt": "Alex Chen - Head of Digital"
+        }
+      }
+    },
+    {
+      "id": "team-maya",
+      "type": "node.team_member",
+      "path": "/team/maya-okafor",
+      "values": {
+        "title": "Maya Okafor",
+        "body": "<p>Maya brings a deep understanding of sustainable design practices to every project. With a masters in Sustainable Design from the Royal College of Art, she ensures our packaging and environmental design work minimizes ecological impact without compromising visual quality.</p>",
+        "position": "Senior Designer - Packaging",
+        "specialties": ["Packaging Design", "Sustainable Design", "Print Production"],
+        "email": "maya@formfunction.studio",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+          "alt": "Maya Okafor - Senior Designer"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Form & Function Studio",
+        "body": "<p>Form & Function is a multidisciplinary design studio founded in San Francisco in 2007. We create brand identities, digital experiences, and physical environments for clients who believe design is a strategic investment, not a cost center.</p><h2>Our Philosophy</h2><p>We named our studio after the enduring design principle that form follows function. For us, this means every aesthetic choice must serve a purpose. Beauty without utility is decoration; utility without beauty is engineering. We aim for the intersection where both thrive.</p><h2>How We Work</h2><p>Every project begins with listening. We conduct thorough research, facilitate collaborative workshops, and develop strategic frameworks before any visual design begins. This ensures our creative work is grounded in real insight, not assumption.</p><h2>Recognition</h2><ul><li>D&AD Yellow Pencil - Branding (2024)</li><li>Communication Arts Design Annual - 12 selections</li><li>Fast Company Innovation by Design - Finalist (2023)</li></ul>"
+      }
+    },
+    {
+      "id": "page-contact",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact",
+        "body": "<h2>Start a Conversation</h2><p>We're always interested in hearing about new projects, collaborations, and creative challenges. Get in touch and let's explore what we can build together.</p><h2>Studio</h2><p>142 Tehama Street, Suite 400<br/>San Francisco, CA 94105</p><h2>New Business</h2><p>For project inquiries, please email hello@formfunction.studio with a brief description of your project, timeline, and budget range.</p><h2>Careers</h2><p>We're always looking for talented designers who share our values. Check our careers page for current openings, or send your portfolio to careers@formfunction.studio.</p>"
+      }
+    }
+  ]
+}

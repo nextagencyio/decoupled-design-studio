@@ -1,0 +1,142 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-brand-identity",
+          "title": "Brand Identity & Strategy",
+          "path": "/services/brand-identity",
+          "body": {
+            "processed": "<p>We build brand systems that are both beautiful and strategic. Starting with deep research into your market, audience, and competitive landscape, we create identities that differentiate and endure.</p><h2>What We Deliver</h2><ul><li>Brand strategy and positioning workshops</li><li>Logo design and visual identity systems</li><li>Color, typography, and iconography guidelines</li><li>Brand voice and messaging frameworks</li><li>Comprehensive brand guidelines documents</li></ul>",
+            "summary": "We build brand systems that are both beautiful and strategic. Starting with deep research into your market, audience, and competitive landscape, we create identities that differentiate and endure.What"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "brand-identity",
+              "name": "brand-identity"
+            }
+          ],
+          "iconName": "palette",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+            "alt": "Brand identity design materials spread on desk",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-digital-design",
+          "title": "Digital Design & UX",
+          "path": "/services/digital-design",
+          "body": {
+            "processed": "<p>We design digital experiences that are intuitive, engaging, and conversion-driven. From marketing websites to complex SaaS platforms, our approach balances aesthetics with usability.</p><h2>Capabilities</h2><ul><li>Website design and development</li><li>User experience research and testing</li><li>UI design systems and component libraries</li><li>Interactive prototyping</li><li>Responsive and mobile-first design</li></ul>",
+            "summary": "We design digital experiences that are intuitive, engaging, and conversion-driven. From marketing websites to complex SaaS platforms, our approach balances aesthetics with usability.CapabilitiesWebsit"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "digital-design",
+              "name": "digital-design"
+            },
+            {
+              "id": "ux-ui",
+              "name": "ux-ui"
+            }
+          ],
+          "iconName": "monitor",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+            "alt": "Digital design work on a high-resolution display",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-packaging",
+          "title": "Packaging & Print",
+          "path": "/services/packaging-design",
+          "body": {
+            "processed": "<p>We create packaging that tells your brand's story from the shelf to the unboxing experience. Our designs balance visual impact with practical manufacturing requirements.</p><h2>Services Include</h2><ul><li>Structural packaging design</li><li>Label and wrap design</li><li>Print production management</li><li>Sustainable materials consulting</li><li>Point-of-sale and display design</li></ul>",
+            "summary": "We create packaging that tells your brand's story from the shelf to the unboxing experience. Our designs balance visual impact with practical manufacturing requirements.Services IncludeStructural pack"
+          },
+          "serviceDiscipline": [
+            {
+              "id": "packaging",
+              "name": "packaging"
+            }
+          ],
+          "iconName": "box",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&q=80",
+            "alt": "Premium packaging design with clean typography",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
