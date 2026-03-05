@@ -32,7 +32,7 @@ const selectedWork = [
 
 export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#f4f1ff]">
       <Header />
 
       <ErrorBoundary>
@@ -44,7 +44,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </ErrorBoundary>
 
       {/* Capabilities */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#f4f1ff]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl font-bold text-primary-950 mb-16 tracking-tight">
             What we do
@@ -53,7 +53,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
             {capabilities.map((cap) => {
               const IconComponent = cap.icon
               return (
-                <div key={cap.title} className="group">
+                <div key={cap.title} className="group p-5 bg-white border border-primary-100 rounded-xl shadow-sm">
                   <IconComponent className="w-5 h-5 text-accent-500 mb-3" strokeWidth={1.5} />
                   <h3 className="font-heading text-lg font-semibold text-primary-950 mb-1">{cap.title}</h3>
                   <p className="text-primary-400 text-sm leading-relaxed">{cap.description}</p>
@@ -65,9 +65,9 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
       </section>
 
       {/* Selected Work */}
-      <section className="py-20 bg-primary-50">
+      <section className="py-20 bg-gradient-to-br from-primary-950 to-primary-800">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl font-bold text-primary-950 mb-16 tracking-tight">
+          <h2 className="font-heading text-3xl font-bold text-white mb-16 tracking-tight">
             Selected work
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -82,7 +82,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
                     unoptimized
                   />
                 </div>
-                <p className="text-sm text-primary-400">{work.label}</p>
+                <p className="text-sm text-primary-200">{work.label}</p>
               </div>
             ))}
           </div>
