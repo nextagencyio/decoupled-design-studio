@@ -17,6 +17,19 @@ export default function Header() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [bannerHeight, setBannerHeight] = useState(0)
+
+  useEffect(() => {
+    const banner = document.querySelector('[class*="bg-amber-500"]') as HTMLElement | null
+    if (banner) {
+      const update = () => setBannerHeight(banner.offsetHeight)
+      update()
+      const observer = new MutationObserver(update)
+      observer.observe(banner, { attributes: true, childList: true, subtree: true })
+      window.addEventListener('resize', update)
+      return () => { observer.disconnect(); window.removeEventListener('resize', update) }
+    }
+  }, [])
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -39,11 +52,12 @@ export default function Header() {
   return (
     <header
       className={clsx(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        'fixed left-0 right-0 z-50 transition-all duration-300',
         scrolled
           ? 'bg-primary-950/95 backdrop-blur-md shadow-lg shadow-black/10'
           : 'bg-transparent'
       )}
+      style={{ top: bannerHeight }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-5">
