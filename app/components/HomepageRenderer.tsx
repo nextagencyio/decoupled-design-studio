@@ -100,7 +100,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
               &copy; {new Date().getFullYear()} Form &amp; Function Studio &middot; Portland, OR
             </p>
             <div className="flex items-center space-x-6 text-sm text-primary-400">
-              <Link href="/projects" className="hover:text-primary-900 transition-colors">Work</Link>
+              <Link href="/work" className="hover:text-primary-900 transition-colors">Work</Link>
               <Link href="/services" className="hover:text-primary-900 transition-colors">Services</Link>
               <Link href="/team" className="hover:text-primary-900 transition-colors">Team</Link>
               <Link href="/contact" className="hover:text-primary-900 transition-colors">Contact</Link>
