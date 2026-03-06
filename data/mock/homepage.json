@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-projects",
               "title": "",
-              "number": "400+",
+              "number": "400+", "value": "400+",
               "label": "Projects Delivered"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-awards",
               "title": "",
-              "number": "52",
+              "number": "52", "value": "52",
               "label": "Design Awards"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-clients",
               "title": "",
-              "number": "180+",
+              "number": "180+", "value": "180+",
               "label": "Clients Worldwide"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Years in Practice"
             }
           ],
