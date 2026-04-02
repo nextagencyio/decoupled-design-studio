@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getProjects() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PROJECTS, { first: 50 })
+    const data = await client.raw(GET_PROJECTS, { first: 50 })
     return data?.nodeProjects?.nodes || []
   } catch (error) {
     console.error('Error fetching projects:', error)
@@ -48,7 +48,7 @@ export default async function ProjectsPage() {
             </div>
           ) : (
             <div className="flex flex-col">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <ProjectCard key={item.id} item={item} />
               ))}
             </div>

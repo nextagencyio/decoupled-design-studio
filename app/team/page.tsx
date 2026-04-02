@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getTeamMembers() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_TEAM_MEMBERS, { first: 50 })
+    const data = await client.raw(GET_TEAM_MEMBERS, { first: 50 })
     return data?.nodeTeamMembers?.nodes || []
   } catch (error) {
     console.error('Error fetching team members:', error)
@@ -48,7 +48,7 @@ export default async function TeamMembersPage() {
             </div>
           ) : (
             <div className="flex flex-col">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <TeamMemberCard key={item.id} item={item} />
               ))}
             </div>
